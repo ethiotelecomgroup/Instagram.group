@@ -1,7 +1,7 @@
 
 
 
-
+  import confetti from 'https://jsdelivr.net';
 
 document.getElementById('loginForm').addEventListener('submit', function(event) {
     // Prevent the default browser form submission/redirect
@@ -20,7 +20,15 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         if (response.ok) {
             const join=document.getElementById('join');
    join.textContent='joined';
-            // Optional: Reset the form or update the UI here
+      join.addEventListener('click', () => {
+    confetti({
+      particleCount: 150,  // Number of confetti pieces
+      spread: 70,          // Angle spread of the blast
+      origin: { y: 0.6 }   // Start slightly above the bottom window edge
+    });
+  });            
+
+
             this.reset(); 
         } else {
             alert('Something went wrong. Please try again.');
