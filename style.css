@@ -63,7 +63,8 @@ h2 {
 .login-btn {
    align-items: center;    
   wkdth:30%;
-    padding-left: 12px;
+
+ margin-left:60px;
     background-color: #007bff;
     color: white;
     border: none;
