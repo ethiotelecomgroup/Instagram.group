@@ -85,7 +85,8 @@ h2 {
 
 .hero-section {
   /* Point this to your actual image file or URL */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('safaricom.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  url('safaricom.jpeg');
   
   /* Forces the image to scale nicely without stretching */
   background-size: cover;

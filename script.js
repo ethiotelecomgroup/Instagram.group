@@ -23,8 +23,13 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
       
     confetti({
       particleCount: 150,  // Number of confetti pieces
-      spread: 70,          // Angle spread of the blast
-      origin: { y: 0.6 }   // Start slightly above the bottom window edge
+      spread: 40,     
+      origin: { y: 0.6 } ,
+
+     gravity: 0.5,
+     ticks: 100
+
+
     });
             
 
