@@ -85,9 +85,10 @@ h2 {
 
 .hero-section {
   /* Point this to your actual image file or URL */
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
   url('safaricom.jpeg');
-  
+  width:100%;  
+
 position: fixed; 
     top: 0;
     left: 0;  
@@ -108,7 +109,7 @@ position: fixed;
   font-family: sans-serif;
 }
 .title{
-
+margin-top:10px;
 margin-left:60px;
 
 
