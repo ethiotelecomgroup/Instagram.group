@@ -108,14 +108,16 @@ position: fixed;
 }
 
 .hero-content {
+
+ position: fixed;
   top: 0;
+
   color: #ffffff; /* White text so it pops against the dark overlay */
   font-family: sans-serif;
 }
 .title{
 
-margin-top:5px;
-margin-left:60px;
+margin-left:100px;
 
 
 
