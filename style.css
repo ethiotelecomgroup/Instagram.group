@@ -118,8 +118,7 @@ position: fixed;
 }
 
 .title {
-  transform: translateX(50px)
-    transform: translateY(50px)
+  transform: translateX(50px)  translateY(50px)
 
 }
 
