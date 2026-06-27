@@ -21,8 +21,7 @@ body {
 .login-container {
     background: #ffffff;
     padding: 0px;
-   margin-right:50px;
-  margin-top:150px;
+    margin-top:150px auto 0 auto;
   width:100%;
 
 }
