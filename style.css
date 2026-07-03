@@ -216,3 +216,24 @@ margin-top:140px;
 .nav-menu .close-btn:hover {
   color: #ff0000;     /* Turns red when hovered */
 }
+
+
+h2 {
+            color: #1d3557;
+            margin-top: 0;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .bonus-section {
+            margin-bottom: 20px;
+        }
+        .bonus-title {
+            font-weight: bold;
+            color: #1d3557;
+            margin-bottom: 5px;
+        }
+        .bonus-text {
+            color: #4a5568;
+            margin: 0;
+            line-height: 1.5;
+        }
