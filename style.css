@@ -116,7 +116,7 @@ display:inline-flex;
 
 .title {
   
-  transform: translateX(48px)  translateY(68px);
+  transform: translateX(10px)  translateY(68px);
 
 }
 
@@ -267,6 +267,15 @@ border-radius: 10px;
   font-weight: 700;           /* Bold emphasis */
   color: #1a1a1a;             /* Deep dark text */
   line-height: 1.2;
+
+ 
+  /* Magic gradient text trick */
+  background: linear-gradient(45deg, #ff416c, #ff4b2b); /* YouTube/Streamer red-orange */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+
+
 }
 
 /* The "subscribers" label */
@@ -278,3 +287,4 @@ border-radius: 10px;
   letter-spacing: 0.5px;       /* Slight spacing for readability */
   margin-top: 4px;            /* Gap between number and text */
 }
+
