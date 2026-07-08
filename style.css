@@ -107,7 +107,7 @@ position: fixed;
 
 .hero-content {
 display:inline-block;
- position: relative;
+ position: fixed;
   top: 0;
   left :0;  
  
