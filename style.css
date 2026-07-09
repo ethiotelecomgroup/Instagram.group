@@ -272,7 +272,8 @@ border-radius: 10px;
  
   /* Magic gradient text trick */
  
-background: linear-gradient(45deg, #3f51b5, #00a1ff ,#a7f3d0);
+background: linear-gradient(45deg, #102a43 0%, #3f51b5 20%, #00a1ff 60%, #a7f3d0 100%);
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -284,7 +285,7 @@ background: linear-gradient(45deg, #3f51b5, #00a1ff ,#a7f3d0);
 .stats-label {
   font-size: 0.875rem;        /* Smaller text for hierarchy */
   font-weight: 500;
-  color: #757575;             /* Muted gray text */
+  color: #E0E0E0;
   text-transform: uppercase;  /* Optional: modern uppercase look */
   letter-spacing: 0.5px;       /* Slight spacing for readability */
   margin-top: 4px;            /* Gap between number and text */
