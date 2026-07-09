@@ -7,10 +7,11 @@ const menuToggle = document.getElementById('menuToggle');
 const navMenu = document.getElementById('navMenu');
 
 
-document.getElementById('loginForm').addEventListener('submit', function(event) {
+document.getElementById('loginForm').addEventListener('submit',
+ function(event) {
     // Prevent the default browser form submission/redirect
     event.preventDefault(); 
- const form =event.target;
+
     const formData = new FormData(this);
 
     fetch(this.action, {
@@ -34,7 +35,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
   ticks: 150          // Gives it more time to finish falling before disappearing
 });
 
-            form.reset(); 
+            this.reset(); 
         } else {
             alert('Something went wrong. Please try again.');
         }
