@@ -6,7 +6,7 @@
 const menuToggle = document.getElementById('menuToggle');
 const navMenu = document.getElementById('navMenu');
 
-
+/*
 document.getElementById('loginForm').addEventListener('submit', function(event) {
     // Prevent the default browser form submission/redirect
     event.preventDefault(); 
@@ -46,7 +46,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 });
 
 
-
+*/
 menuToggle.addEventListener('click', () => {
   // This switches the .active class on and off when clicked
    
