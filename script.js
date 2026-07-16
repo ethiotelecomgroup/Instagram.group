@@ -23,7 +23,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     .then(response => {
         if (response.ok) {
             const join=document.getElementById('join');
-         
+         join.textContent="joined successfully ";         
    confetti({
   particleCount: 150,
   spread: 60,

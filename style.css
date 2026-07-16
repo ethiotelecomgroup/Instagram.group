@@ -86,7 +86,7 @@ margin-top:10px;
 .hero-section {
   /* Point this to your actual image file or URL */
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
-  url('safaricom.jpeg');
+  url('ethiotelecom.jpg');
   width:100%;
 
 position: fixed; 
